@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<%- include('partials/head') %>
+
+<body class="bg-gray-50 text-gray-900">
+
+    <%- include('partials/navbar') %>
+
+    <header class="bg-blue-700 py-16 px-6 text-center text-white">
+        <h2 class="text-4xl font-extrabold mb-4">Etiquetas Inteligentes para el Siglo XXI</h2>
+        <p class="text-xl mb-8 opacity-90">Gestión de hasta 5 productos y video promocional en tiempo real.</p>
+        <button class="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-gray-100 transition">
+            Saber más
+        </button>
+    </header>
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-3xl font-bold text-gray-800 mb-12">Tecnología de Vanguardia en cada Estante</h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="Store-9 5l7 7-7 7" />
+                            <rect x="3" y="3" width="7" height="7" rx="1" stroke-width="2"/>
+                            <rect x="14" y="3" width="7" height="7" rx="1" stroke-width="2"/>
+                            <rect x="3" y="14" width="7" height="7" rx="1" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Capacidad 5-en-1</h4>
+                    <p class="text-gray-600 text-sm">Optimización máxima del espacio: una sola etiqueta gestiona y muestra información de hasta 5 productos distintos.</p>
+                </div>
+
+                <div class="p-8 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Video MJPEG</h4>
+                    <p class="text-gray-600 text-sm">Atrae la atención del cliente con publicidad dinámica directamente en el punto de venta mediante video fluido.</p>
+                </div>
+
+                <div class="p-8 bg-gray-50 rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.111 16.404a5.5 5.5 0 017.778 0M12 20h.01m-7.08-7.071a9 9 0 0112.14 0M12 12h.01" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold mb-2">Protocolo ESP-NOW</h4>
+                    <p class="text-gray-600 text-sm">Comunicación ultra-rápida y de bajo consumo entre el nodo central y las etiquetas, sin depender de redes Wi-Fi congestionadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <%- include('partials/footer') %>
+</body>
+</html>

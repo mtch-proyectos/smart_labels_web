@@ -1,0 +1,13 @@
+# Dependencias (Carpeta pesada)
+node_modules/
+
+# Archivos de configuración local
+.env
+
+# Logs de error de npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Carpeta de construcción de Tailwind (opcional, si prefieres que Render la genere)
+public/css/output.css
